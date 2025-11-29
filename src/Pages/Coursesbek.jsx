@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function CoursesPage() {
+export default function Coursesbek() {
 
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -9,7 +9,7 @@ export default function CoursesPage() {
     fetch('https://dummyjson.com/users')
       .then((res) => res.json())
       .then((data) => {
-        setProducts(data.users); 
+        setProducts(data.users);
         setLoading(false);
       })
       .catch((error) => {
