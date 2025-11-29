@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Header = () => {
     return (
         <div>
@@ -8,7 +9,7 @@ const Header = () => {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/About">Abuot us</Link>
-                <Link to="/Courses">Courses</Link>
+                <Link to="">Courses</Link>
                 <Link to="/Blog">Blog</Link>
                 <Link to="/Contacts">Contacts</Link>
             </nav>
