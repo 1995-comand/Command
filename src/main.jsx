@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './Pages/Home.jsx';
+import BlogHeader from './Pages/Blog.jsx';
 
 
 const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
   },
+  {
+    path: "Blog",
+    element: <BlogHeader/>,
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
