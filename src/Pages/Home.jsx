@@ -11,6 +11,7 @@ const Home = () => {
             <MainHeader/>
             <Section/>
             <FetchSection/>
+            
         </div>
     )
 }
