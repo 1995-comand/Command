@@ -1,12 +1,18 @@
-import React from 'react'
-import Header from '../Components/Header'
+import React from "react";
+import Header from "../Components/Header";
+import MainHeader from "../Components/MainHeader";
+import Section from "../Components/Section";
+import FetchSection from "../Components/FetchSection";
 
 const Home = () => {
-    return (
-        <div>
-            Home
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      <MainHeader />
+      <Section />
+      <FetchSection />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
