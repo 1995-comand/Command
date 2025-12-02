@@ -7,7 +7,6 @@ import FetchSection from "../Components/FetchSection";
 const Home = () => {
   return (
     <div>
-      <Header />
       <MainHeader />
       <Section />
       <FetchSection />

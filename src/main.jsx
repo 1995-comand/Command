@@ -26,12 +26,20 @@ const router = createBrowserRouter([
         element: <BlogHeader />,
       },
       {
-        path: "/course",
+        path: "/courses",
         element: <Coursesbek />,
       },
       {
-        path: "/islom",
+        path: "/Events",
         element: <EventPage />,
+      },
+      {
+        path: "/Login",
+        element: <p>login page</p>,
+      },
+      {
+        path: "/Contacts",
+        element: <p>Contact page</p>,
       },
     ],
   },
