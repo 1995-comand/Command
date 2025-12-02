@@ -1,13 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Home from './Pages/Home.jsx';
-
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./Pages/Home.jsx";
+import BlogHeader from "./Pages/Blog.jsx";
+import Coursesbek from "./Pages/Coursesbek.jsx";
+import EventPage from "./Components/Eventpage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,8 +26,12 @@ const router = createBrowserRouter([
         element: <BlogHeader />,
       },
       {
-        pathL: "/course",
+        path: "/course",
         element: <Coursesbek />,
+      },
+      {
+        path: "/islom",
+        element: <EventPage />,
       },
     ],
   },
